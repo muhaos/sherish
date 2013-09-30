@@ -12,6 +12,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:[NSBundle mainBundle]];
+    
+    UIViewController* centerVC = [self.storyboard instantiateViewControllerWithIdentifier:@"home"];
+    UIViewController* leftVC = [self.storyboard instantiateViewControllerWithIdentifier:@"left_menu"];
+
+    self.sideMenuContainer = [MFSideMenuContainerViewController
+                              containerWithCenterViewController:centerVC
+                              leftMenuViewController:leftVC
+                              rightMenuViewController:nil];
+    
+    self.window.rootViewController = self.sideMenuContainer;
+    
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
