@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		13B07DB5943F46D6BD71E906 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8D810E04E8424EB3D8DFF6 /* libPods.a */; };
+		562C498117FAD35E008BF660 /* SHPhotoPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 562C498017FAD35E008BF660 /* SHPhotoPreviewVC.m */; };
 		5664B57017F98B8700868B04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5664B56F17F98B8700868B04 /* UIKit.framework */; };
 		5664B57217F98B8700868B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5664B57117F98B8700868B04 /* Foundation.framework */; };
 		5664B57417F98B8700868B04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5664B57317F98B8700868B04 /* CoreGraphics.framework */; };
@@ -28,6 +29,8 @@
 		5664B5AE17F98FCD00868B04 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5664B5AD17F98FCD00868B04 /* Podfile */; };
 		5664B5B217F9AA2800868B04 /* SHLeftMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5664B5B117F9AA2800868B04 /* SHLeftMenuVC.m */; };
 		5664B5B617F9ADD300868B04 /* SHLeftMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5664B5B517F9ADD300868B04 /* SHLeftMenuCell.m */; };
+		5664B5BB17F9B9D000868B04 /* SHHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5664B5BA17F9B9D000868B04 /* SHHomeVC.m */; };
+		5664B5BE17F9C27F00868B04 /* SHCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5664B5BD17F9C27F00868B04 /* SHCameraVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		475E4ED2A8CB43D499127478 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		562C497F17FAD35E008BF660 /* SHPhotoPreviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHPhotoPreviewVC.h; path = Controllers/SHPhotoPreviewVC.h; sourceTree = "<group>"; };
+		562C498017FAD35E008BF660 /* SHPhotoPreviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHPhotoPreviewVC.m; path = Controllers/SHPhotoPreviewVC.m; sourceTree = "<group>"; };
 		5664B56C17F98B8700868B04 /* Sherish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sherish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5664B56F17F98B8700868B04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5664B57117F98B8700868B04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +75,10 @@
 		5664B5B117F9AA2800868B04 /* SHLeftMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHLeftMenuVC.m; path = Controllers/SHLeftMenuVC.m; sourceTree = "<group>"; };
 		5664B5B417F9ADD300868B04 /* SHLeftMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHLeftMenuCell.h; path = Controllers/SHLeftMenuCell.h; sourceTree = "<group>"; };
 		5664B5B517F9ADD300868B04 /* SHLeftMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHLeftMenuCell.m; path = Controllers/SHLeftMenuCell.m; sourceTree = "<group>"; };
+		5664B5B917F9B9D000868B04 /* SHHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHHomeVC.h; path = Controllers/SHHomeVC.h; sourceTree = "<group>"; };
+		5664B5BA17F9B9D000868B04 /* SHHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHHomeVC.m; path = Controllers/SHHomeVC.m; sourceTree = "<group>"; };
+		5664B5BC17F9C27F00868B04 /* SHCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCameraVC.h; path = Controllers/SHCameraVC.h; sourceTree = "<group>"; };
+		5664B5BD17F9C27F00868B04 /* SHCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHCameraVC.m; path = Controllers/SHCameraVC.m; sourceTree = "<group>"; };
 		FE8D810E04E8424EB3D8DFF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,6 +107,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		562C497E17FAD33F008BF660 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5664B5BC17F9C27F00868B04 /* SHCameraVC.h */,
+				5664B5BD17F9C27F00868B04 /* SHCameraVC.m */,
+				562C497F17FAD35E008BF660 /* SHPhotoPreviewVC.h */,
+				562C498017FAD35E008BF660 /* SHPhotoPreviewVC.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
 		5664B56317F98B8700868B04 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +203,8 @@
 		5664B5AF17F9A9E700868B04 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				562C497E17FAD33F008BF660 /* Camera */,
+				5664B5B817F9B99700868B04 /* Home */,
 				5664B5B317F9AD5A00868B04 /* Left Menu */,
 			);
 			name = Controllers;
@@ -204,6 +226,15 @@
 			children = (
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		5664B5B817F9B99700868B04 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5664B5B917F9B9D000868B04 /* SHHomeVC.h */,
+				5664B5BA17F9B9D000868B04 /* SHHomeVC.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +287,11 @@
 				CLASSPREFIX = SH;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = swanteams.com;
+				TargetAttributes = {
+					5664B56B17F98B8700868B04 = {
+						DevelopmentTeam = 34XHBNU637;
+					};
+				};
 			};
 			buildConfigurationList = 5664B56717F98B8700868B04 /* Build configuration list for PBXProject "Sherish" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -354,6 +390,9 @@
 				5664B58F17F98B8800868B04 /* SHViewController.m in Sources */,
 				5664B5B217F9AA2800868B04 /* SHLeftMenuVC.m in Sources */,
 				5664B5B617F9ADD300868B04 /* SHLeftMenuCell.m in Sources */,
+				562C498117FAD35E008BF660 /* SHPhotoPreviewVC.m in Sources */,
+				5664B5BB17F9B9D000868B04 /* SHHomeVC.m in Sources */,
+				5664B5BE17F9C27F00868B04 /* SHCameraVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,10 +512,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 475E4ED2A8CB43D499127478 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sherish/Sherish-Prefix.pch";
 				INFOPLIST_FILE = "Sherish/Sherish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -485,10 +528,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 475E4ED2A8CB43D499127478 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sherish/Sherish-Prefix.pch";
 				INFOPLIST_FILE = "Sherish/Sherish-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
